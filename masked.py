@@ -28,11 +28,11 @@ tree = result.json()['DailyForecasts'][0]["AirAndPollen"][4]["Category"]
 
 #Masked Math:
 grass_val = result.json()["DailyForecasts"][0]["AirAndPollen"][1]["CategoryValue"] * 2
-mold_val = result.json()['DailyForecasts'][0]["AirAndPollen"][2]["CategoryValue"] * .5
+mold_val = result.json()['DailyForecasts'][0]["AirAndPollen"][2]["CategoryValue"] * 1
 ragweed_val = result.json()['DailyForecasts'][0]["AirAndPollen"][3]["CategoryValue"] * 3
-tree_val = result.json()['DailyForecasts'][0]["AirAndPollen"][4]["CategoryValue"] * 4.5
+tree_val = result.json()['DailyForecasts'][0]["AirAndPollen"][4]["CategoryValue"] * 4
 total = (grass_val + mold_val + ragweed_val + tree_val) / 10
-threshold = 2.5
+threshold = 2.6
 output_text = ''
 
 if total >= threshold:
