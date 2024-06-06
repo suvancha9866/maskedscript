@@ -41,7 +41,8 @@ else:
     output_text = 'No Mask'
 
 
-layout2 = [[sg.Image('grass.png'), sg.Text("Grass:", font=("@Microsoft YaHei UI","12", "bold")), sg.Text(grass)], 
+layout2 = [[sg.Text(event, font=("@Microsoft YaHei UI","12", "bold"))],
+            [sg.Image('grass.png'), sg.Text("Grass:", font=("@Microsoft YaHei UI","12", "bold")), sg.Text(grass)], 
             [sg.Image('mold.png'), sg.Text("Mold:", font=("@Microsoft YaHei UI","12", "bold")), sg.Text(mold)], 
             [sg.Image('ragweed.png'), sg.Text("Ragweed:", font=("@Microsoft YaHei UI","12", "bold")), sg.Text(ragweed)], 
             [sg.Image('tree.png'), sg.Text("Tree:", font=("@Microsoft YaHei UI","12", "bold")), sg.Text(tree)], 
