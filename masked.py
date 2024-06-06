@@ -1,6 +1,4 @@
 import requests
-import schedule
-import time
 import PySimpleGUI as sg
 
 

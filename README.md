@@ -4,7 +4,9 @@ This is a Python Automation Script that displays the Levels of Grass, Mold, Ragw
 
 I wanted to create this because my allergies in the recent years have been horrible and I wanted to know if I should mask my face in order to protect myself. So an automation would make that easier for me.
 
-I used libraries like requests, PySimpleGUI and more to create this automation. I am getting my weather data from Accuweather through an API because, in my eyes, Accuweather is very reliable.
+I used libraries like requests and PySimpleGUI to create this automation. I am getting my weather data from Accuweather through an API because, in my eyes, Accuweather is very reliable.
+
+This script should go off at a certain time like 9:30 AM by creating a simple task using Task Scheduler on my computer.
 
 ### Resources I used:
 
